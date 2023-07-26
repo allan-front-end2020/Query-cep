@@ -6,7 +6,7 @@ function App() {
  
   return (
     <div className='container'>
-      <h2>Buscador de Cep</h2>
+      <h1 className='title'>Buscador de Cep</h1>
       <Form />
     </div>
   )
