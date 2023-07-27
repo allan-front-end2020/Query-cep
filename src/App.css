@@ -1,25 +1,23 @@
-.container{
+.container {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
-.title{
+.title {
   font-size: 62px;
   color: rgb(69, 73, 129);
   margin: 20px;
   text-shadow: 2px 1px 3px grey;
-  border-right: 2px solid red;
 }
-@media (max-width:605px){
-  .title{
+@media (max-width: 605px) {
+  .title {
     font-size: 50px;
+  }
 }
-}
-@media (max-width:458px){
-  .title{
+@media (max-width: 458px) {
+  .title {
     font-size: 35px;
-}
+  }
 }
