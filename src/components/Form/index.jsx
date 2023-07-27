@@ -37,26 +37,24 @@ function form() {
         <button onClick={buscarCep}>Procurar</button>
       </ContainerSearch>
 
-      {Object.keys(cep) > 0 && (
-        <Container>
-          <div>
-            <span>Cep:</span>
-          </div>
-          <div>{result.cep}</div>
-          <div>
-            <span>Logradouro:</span>
-          </div>
-          <div>{result.logradouro}</div>
-          <div>
-            <span>Bairro:</span>
-          </div>
-          <div>{result.bairro}</div>
-          <div>
-            <span>Bairro:</span>
-          </div>
-          <div>{result.localidade}</div>
-        </Container>
-      )}
+      <Container>
+        <div>
+          <span>Cep:</span>
+        </div>
+        <div>{result.cep}</div>
+        <div>
+          <span>Logradouro:</span>
+        </div>
+        <div>{result.logradouro}</div>
+        <div>
+          <span>Bairro:</span>
+        </div>
+        <div>{result.bairro}</div>
+        <div>
+          <span>Localidade:</span>
+        </div>
+        <div>{result.localidade}</div>
+      </Container>
     </div>
   );
 }
